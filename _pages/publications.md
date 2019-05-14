@@ -8,21 +8,21 @@ years2: [2019,2017,2015, 2014, 2013, 2012]
 years3: [2019]
 ---
 
-*Accepted papers*
+#### Accepted papers
 
 {% for y in page.years %}
   <h3 class="year">{{y}}</h3>
   {% bibliography -f statementbib -q @*[year={{y}}]* %}
 {% endfor %}
 
-*Submitted and in preparation*
+#### Submitted and in preparation
 
 {% for y in page.years3 %}
   <h3 class="year">{{y}}</h3>
   {% bibliography -f Ongoing.bib -q @*[year={{y}}]* %}
 {% endfor %}
 
-*Demo abstracts, Workshop papers and Works-in-Progress*
+#### Demo abstracts, Workshop papers and Works-in-Progress
 
 {% for y in page.years2 %}
   <h3 class="year">{{y}}</h3>
