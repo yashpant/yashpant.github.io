@@ -9,7 +9,7 @@ profile:
   image: linkedi.jpg
   address: >
     <p>545 Cory Hall</p>
-    <p>Berkeley ,CA 94705</p>
+    <p>Berkeley, CA 94705</p>
 
 news: true
 social: true
@@ -17,7 +17,7 @@ social: true
 My research interests lie in using elements of Control Theory, Formal Methods, Machine Learning and Optimization for Safe Autonomy and Human-Machine Interaction.
 [[Curriculum Vitae]](files/CV_YashVardhanPant.pdf){:target="\_blank"}
 
-I am currently a Postdoctoral Scholar in the EECS Department at UC Berkeley. As a part of the [VeHICaL project](http://vehical.org){:target="_blank"}, I am mentored by Professors [Sanjit Seshia](http://people.eecs.berkeley.edu/~sseshia/){:target="_blank"}, and [Bjoern Hartmann](https://people.eecs.berkeley.edu/~bjoern/){:target="_blank"} at UC Berkeley, and Professor [Richard Murray](http://www.cds.caltech.edu/~murray/wiki/Main_Page){:target="_blank"} at Caltech. 
+I am currently a Postdoctoral Scholar in the EECS Department at UC Berkeley. As a part of the [VeHICaL project](http://vehical.org){:target="_blank"}, I am mentored by Professors [Sanjit Seshia](http://people.eecs.berkeley.edu/~sseshia/){:target="_blank"} (primarily) and [Bjoern Hartmann](https://people.eecs.berkeley.edu/~bjoern/){:target="_blank"} at UC Berkeley, and Professor [Richard Murray](http://www.cds.caltech.edu/~murray/wiki/Main_Page){:target="_blank"} at Caltech. 
 
 Prior to this I was a PhD student in the Department of Electrical and Systems Engineering, at the University of Pennsylvania where I worked on developing Robust Predictive Methods for Planning and Control of Autonomous Systems as a part of Prof. [Rahul Mangharam](http://www.seas.upenn.edu/~rahulm/){:target="_blank"}'s Real-Time and Embedded Systems Lab.
 
