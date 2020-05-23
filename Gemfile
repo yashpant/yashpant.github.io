@@ -4,7 +4,6 @@ group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-email-protect'
     gem 'jekyll-paginate'
-    gem "bibtex-ruby", ">= 5.1.0"
     gem 'jekyll-scholar'
     gem 'jemoji'
     gem 'unicode_utils'
