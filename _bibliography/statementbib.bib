@@ -1,0 +1,155 @@
+@inproceedings{alena2020l2f,
+  title={{Learning-to-Fly: Learning-based Collision Avoidance for Scalable Urban Air Mobility}},
+  author={Rodionova, Alëna* and Pant, Yash Vardhan* and Jang, Kuk J. and Abbas, Houssam and Mangharam, Rahul},
+  booktitle={IEEE International Conference on Intelligent Transportation Systems (to appear)},
+  year={2020},
+  abstract={With increasing urban population, there is global interest in Urban Air Mobility (UAM), where hundreds of autonomous Unmanned Aircraft Systems (UAS) execute missions in the airspace above cities. Unlike traditional human-in-the-loop air traffic management, UAM requires decentralized autonomous approaches that scale for an order of magnitude higher aircraft densities and are applicable to urban settings. We present Learning-to-Fly (L2F), a decentralized on-demand airborne collision avoidance framework for multiple UAS that allows them to independently plan and safely execute missions with spatial, temporal and reactive objectives expressed using Signal Temporal Logic. We formulate the problem of predictively avoiding collisions between two UAS without violating mission objectives as a Mixed Integer Linear Program (MILP). This however is intractable to solve online. Instead we develop L2F, a two-stage collision avoidance method that consists of: 1)a learning-based decision making scheme and 2) a distributed, linear programming-based UAS control algorithm. Through extensive simulations, we show the real-time applicability of our method which is ≈ 6000× faster than the MILP approach and can resolve 99.4% of collisions when there is ample room to maneuver, and shows graceful degradation in performance otherwise. We also compare L2F to two other methods and demonstrate an implementation on quad-rotor robots.},
+}
+
+
+@inproceedings{fremont2020formal,
+  title={{Formal Scenario-Based Testing of Autonomous Vehicles: From Simulation to the Real World}},
+  author={Fremont, Daniel J and Kim, Edward and Pant, Yash Vardhan and Seshia, Sanjit A and Acharya, Atul and Bruso, Xantha and Wells, Paul and Lemke, Steve and Yu, Qiang and Mehta, Shalin},
+  booktitle={IEEE International Conference on Intelligent Transportation Systems (to appear)},
+  year={2020},
+  abstract={We present a new approach to automated scenario-based testing of the safety of autonomous vehicles, especially those using advanced artificial intelligence-based components, spanning both simulation-based evaluation as well as testing in the real world. Our approach is based on formal methods, combining formal specification of scenarios and safety properties, algorithmic test case generation using formal simulation, test case selection for track testing, executing test cases on the track, and analyzing the resulting data. Experiments with a real autonomous vehicle at an industrial testing ground support our hypotheses that (i) formal simulation can be effective at identifying test cases to run on the track, and (ii) the gap between simulated and real worlds can be systematically evaluated and bridged.},
+ url={https://arxiv.org/pdf/2003.07739.pdf}
+}
+
+
+
+@article{pant2020tcst,
+  title={{Anytime Computation and Control for Autonomous Systems}},
+  author={Pant, Yash Vardhan and Abbas, Houssam and Mohta, Kartik and Quaye, Rhudii A. and Nghiem, Truong X. and Devietti, Joseph and Mangharam, Rahul},
+  journal={IEEE Transactions on Control Systems Technology},
+  year={2020},
+  abstract={The correct and timely completion of the sensing and action loop is of utmost importance in safety critical autonomous systems. Crucial to the performance of this feedback control loop are the computation time and accuracy of the estimator which produces state estimates used by the controller. These state estimators often use computationally expensive perception algorithms like visual feature tracking. With on-board computers on autonomous robots being computationally limited, the computation time of such an estimation algorithm can at times be high enough to result in poor control performance. We develop a framework for codesign of anytime estimation and robust control algorithms, taking into account computation delays and estimation inaccuracies. This is achieved by constructing an anytime estimator from an off-the-shelf perception-based estimation algorithm and obtaining a trade-off curve for its computation time versus estimation error. This is used in the design of a robust predictive control algorithm that at run-time decides a contract, or operation mode, for the estimator in addition to controlling the dynamical system to meet its control objectives at a reduced computation energy cost. This codesign provides a mechanism through which the controller can use the tradeoff curve to reduce estimation delay at the cost of higher inaccuracy, while guaranteeing satisfaction of control objectives. Experiments on a hexrotor platform running a visual-based algorithm for state estimation show how our method results in up to a 10% improvement in control performance while simultaneously saving 5%-6% in computation energy as compared to a method that does not leverage the codesign.},
+  url={https://ieeexplore.ieee.org/abstract/document/9051687}
+  
+}
+
+@inproceedings{li2018naecon,
+title={{Design and implementation of a centralized system for autonomous unmanned aerial vehicle trajectory conflictresolution}},
+author={Li, Max Z., and  Tan, William R., and  Prakash, Sahithya M., and  Kennedy, John F., and   Ryerson, Megan S., and Lee, Daewon, and Pant, Yash Vardhan},
+booktitle={IEEE National Aerospace and Electronics Conference (NAECON)},
+year={2018},
+abstract={The ability of autonomous unmanned aerial vehicles(aUAVs)   to   carry   out   a   diverse   range   of   missions   presentsenormous  societal  and  economic  benefits.  However,  one  criticalsafety  issue  that  must  be  addressed  prior  to  large-scale  aUAVadoption is the potential for aUAV-on-aUAV trajectory conflicts.Current  decentralized  methods  for  trajectory  conflict  resolutionare  energy  and  resource  intensive,  rendering  them  difficult  toscale and implement. We propose a centralized, infrastructure-to-vehicle (I2V) approach that leverages modular embedded systems(“control  modules”).  A  voxel-based  airspace  reservation  systemis  maintained  by  the  control  module,  which  interrogates  andretrieves  the  stored  trajectories  from  aUAVs  approaching  thereservation   airspace.   Trajectory conflict search   is   performed by  the  control  module,  and  conflict  resolution  protocols  aretransmitted  back  to  the  aUAVs.  Our  communication  protocolis  Wi-Fi-based  and  leverages  a  lightweight  on-board  ODROIDmicrocontroller;   the   setup   is   agnostic   to   the   specific   aUAVplatform  and  firmware.  We  simulate  various  airspace  situationsand test the resiliency of our reservation system in MATLAB. Wealso leverage two aUAV testbeds to demonstrate the performanceof  our  centralized  air  traffic  control  regime.},
+url={https://ieeexplore.ieee.org/document/8556719}
+}
+
+
+@inproceedings{jang2019iccps,
+title={{Robustness Evaluation of Computer-aided Clinical trials for Medical Devices}},
+author={Jang, Kuk Jin and Pant, Yash Vardhan, and Zhang, Bo and Weimer, James and Mangharam, Rahul},
+booktitle={Proceedings of the ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS)},
+year={2019},
+abstract={Medical cyber-physical systems, such as the implantable cardioverter defibrillator (ICD), require evaluation of safety and efficacy in the context of a patient population in a clinical trial. Advances in computer modeling and simulation allow for generation of a simulated cohort or virtual cohort which mimics a patient population and can be used as a source of prior information. A major obstacle to acceptance of simulation results as a source of prior information is the lack of a framework for explicitly modeling sources of uncertainty in simulation results and quantifying the effect on trial outcomes.
+In this work, we formulate the Computer-Aided Clinical Trial (CACT) within a Bayesian statistical framework allowing explicit modeling of assumptions and utilization of simulation results at all stages of a clinical trial. To quantify the robustness of the CACT outcome with respect to a simulation assumption, we define δ-robustness as the minimum perturbation of the base prior distribution resulting in a change of the CACT outcome and provide a method to estimate the δ-robustness.
+We demonstrate the utility of the framework and how the results of δ-robustness evaluation can be utilized at various stages of a clinical trial through an application to the Rhythm ID Goes Head-to-head Trial (RIGHT), which was a comparative evaluation of the safety and efficacy of specific software algorithms across different implantable cardiac devices. Finally, we introduce a hardware interface that allows for direct interaction with the physical device in order to validate and confirm the results of a CACT for implantable cardiac devices.},
+url={https://repository.upenn.edu/cgi/viewcontent.cgi?article=1137&context=mlab_papers}
+}
+
+@inproceedings{abbas2019hscc,
+  title={{Temporal Logic Robustness for General Signal Classes}},
+  author={Abbas, Houssam and Pant, Yash Vardhan and Mangharam, Rahul},
+  booktitle={{Proceedings of the ACM International Conference on Hybrid Systems: Computation and Control (HSCC)}},
+  year={2019},
+  abstract={In multi-agent systems, robots transmit their planned trajectories to each other or to a central controller, and each receiver plans its own actions by maximizing a measure of mission satisfaction. For missions expressed in temporal logic, the robustness function plays the role of satisfaction measure. Currently, a Piece-Wise Linear (PWL) or piece-wise constant reconstruction is used at the receiver. This allows an efficient robustness computation algorithm - a.k.a. monitoring - but is not adaptive to the signal class of interest, and does not leverage the compression properties of more general representations. When communication capacity is at a premium, this is a serious bottleneck. In this paper we first show that the robustness computation is significantly affected by how the continuous-time signal is reconstructed from the received samples, which can mean the difference between a successful control and a crash. We show that monitoring general spline-based reconstructions yields a smaller robustness error, and that it can be done with the same time complexity as monitoring the simpler PWL reconstructions. Thus robustness computation can now be adapted to the signal class of interest. We further show that the monitoring error is tightly upper-bounded by the L ∞ signal reconstruction error. We present a (non-linear) L ∞ -based scheme which yields even lower monitoring error than the spline-based schemes (which have the advantage of being faster to compute), and illustrate all results on two case studies. As an application of these results, we show how time-frequency specifications can be efficiently monitored online.},
+  url={https://repository.upenn.edu/cgi/viewcontent.cgi?article=1138&context=mlab_papers}
+}
+
+
+@inproceedings{pant2018fly,
+  title={{Fly-by-Logic: Control of Multi-Drone Fleets with Temporal Logic Objectives}},
+  author={Pant, Yash Vardhan and Abbas, Houssam and Quaye, Rhudii A and Mangharam, Rahul},
+  booktitle={Proceedings of the ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS)},
+  pages={186--197},
+  year={2018},
+  organization={IEEE Press},
+  abstract={The problem of safe planning and control for multi- drone systems across a variety of missions is of critical impor- tance, as the scope of tasks assigned to such systems increases. In this paper, we present an approach to solve this problem for multi-quadrotor missions. Given a mission expressed in Signal Temporal Logic (STL), our controller maximizes robustness to generate trajectories for the quadrotors that satisfy the STL spec- ification in continuous-time. We also show that the constraints on our optimization guarantees that these trajectories can be tracked nearly perfectly by lower level off-the-shelf position and attitude controllers. Our approach avoids the oversimplifying abstractions found in many planning methods, while retaining the expressiveness of missions encoded in STL allowing us to handle complex spatial, temporal and reactive requirements. Through experiments, both in simulation and on actual quadrotors, we show the performance, scalability and real-time applicability of our method.},
+  url={https://repository.upenn.edu/cgi/viewcontent.cgi?article=1127&context=mlab_papers},
+  code={https://github.com/yashpant/FlyByLogic}
+}
+
+@inproceedings{pant2017smooth,
+  title={{Smooth Operator: Control using the Smooth Robustness of Temporal Logic}},
+  author={Pant, Yash Vardhan* and Abbas, Houssam* and Mangharam, Rahul},
+  booktitle={IEEE Conference on Control Technology and Applications (CCTA)},
+  pages={1235--1240},
+  year={2017},
+  organization={IEEE},
+  abstract={Modern control systems, like controllers for swarms of quadrotors, must satisfy complex control objectives while withstanding a wide range of disturbances, from bugs in their software to attacks on their sensors and changes in their environments. These requirements go beyond stability and tracking, and involve temporal and sequencing constraints on system response to various events. This work formalizes the requirements as formulas in Metric Temporal Logic (MTL), and designs a controller that maximizes the robustness of the MTL formula. Formally, if the system satisfies the formula with robustness r, then any disturbance of size less than r cannot cause it to violate the formula. Because robustness is not differentiable, this work provides arbitrarily precise, infinitely differentiable, approximations of it, thus enabling the use of powerful gradient descent optimizers. Experiments on a temperature control example and a two-quadrotor system demonstrate that this approach to controller design outperforms existing approaches to robustness maximization based on Mixed Integer Linear Programming and stochastic heuristics. Moreover, it is not constrained to linear systems.},
+ url={https://repository.upenn.edu/cgi/viewcontent.cgi?article=1119&context=mlab_papers},
+ code={https://github.com/yashpant/SmoothOperator0}
+}
+  
+@inproceedings{pant2016robust,
+  title={{Robust Model Predictive Control for Non-Linear Systems with Input and State Constraints via Feedback Linearization}},
+  author={Pant, Yash Vardhan and Abbas, Houssam and Mangharam, Rahul},
+  booktitle={IEEE Conference on Decision and Control (CDC)},
+  pages={5694--5699},
+  year={2016},
+  organization={IEEE},
+  abstract={Robust predictive control of non-linear systems under state estimation errors and input and state constraints is a challenging problem, and solutions to it have generally involved solving computationally hard non-linear optimizations. Feedback linearization has reduced the computational burden, but has not yet been solved for robust model predictive control under estimation errors and constraints. In this paper, we solve this problem of robust control of a non-linear system under bounded state estimation errors and input and state constraints using feedback linearization. We do so by developing robust constraints on the feedback linearized system such that the non-linear system respects its constraints. These constraints are computed at run-time using online reachability, and are linear in the optimization variables, resulting in a Quadratic Program with linear constraints. We also provide robust feasibility, recursive feasibility and stability results for our control algorithm. We evaluate our approach on two systems to show its applicability and performance.},
+ url={https://repository.upenn.edu/cgi/viewcontent.cgi?article=1113&context=mlab_papers}
+}
+
+
+
+@inproceedings{pant2015co,
+  title={{Co-design of Anytime Computation and Robust Control}},
+  author={Pant, Yash Vardhan and Abbas, Houssam and Mohta, Kartik and Nghiem, Truong X. and Devietti, Joseph and Mangharam, Rahul},
+  booktitle={IEEE Real-Time Systems Symposium (RTSS)},
+  pages={43--52},
+  year={2015},
+  organization={IEEE},
+  abstract={Control software of autonomous robots has stringent real-time requirements that must be met to achieve the control objectives. One source of variability in the performanceof a control system is the execution time and accuracy ofthe state estimator that provides the controller with stateinformation. This estimator is typically perception-based (e.g.,Computer Vision-based) and is computationally expensive. When the computational resources of the hardware platformbecome overloaded, the estimation delay can compromise con-trol performance and even stability. In this paper, we define a framework for co-designing anytime estimation and controlalgorithms, in a manner that accounts for implementation issues like delays and inaccuracies. We construct an anytimeperception-based estimator from standard off-the-shelf Com-puter Vision algorithms, and show how to obtain a trade-offcurve for its delay vs estimate error behavior. We use this anytime estimator in a controller that can use this trade-off curve at runtime to achieve its control objectives at areduced energy cost. When the estimation delay is too largefor correct operation, we provide an optimal manner in which the controller can use this curve to reduce estimation delay at the cost of higher inaccuracy, all the while guaranteeing basic objectives are met. We illustrate our approach on anautonomous hexrotor and demonstrate its advantage over a system that does not exploit co-design.},
+  url={https://repository.upenn.edu/cgi/viewcontent.cgi?article=1110&context=mlab_papers}
+}
+
+@inproceedings{pant2015power,
+  title={{Power-efficient Algorithms for Autonomous Navigation}},
+  author={Pant, Yash Vardhan and Abbas, Houssam and Nischal, KN and Kelkar, Paritosh and Kumar, Dhruva and Devietti, Joseph and Mangharam, Rahul},
+  booktitle={International Conference on Complex Systems Engineering (ICCSE)},
+  pages={1--6},
+  year={2015},
+  organization={IEEE},
+  abstract={Real-time navigation of autonomous vehicles requires the processing of a large amount of sensor data by the perception algorithms onboard the vehicle, like object detection and localization. To meet the driving performance and safety requirements, these algorithms require the hardware to be over-engineered to always operate for the worst-case. This leads to excessive power consumption by the computation platform. In this paper, we study how platform-level optimizations affect the computation throughput and power, and how to use this trade-off to save computation power without overly degrading throughput and control performance. The approach uses an offline profiling stage of the perception algorithm, which gives us Throughput versus Power curves for various processor frequencies and various scheduling of the perception code on CPU and GPU. At runtime, we combine power and throughput into one objective function, and design a supervisor what will determine the frequency and CPU/GPU allocation to maximize the objective. We illustrate our approach on a scaled-down autonomous car which uses Vanishing Point navigation. Experimental results demonstrate that we can achieve an energy savings of upto 20% while degrading control performance by less than 1%.},
+  url={https://ieeexplore.ieee.org/document/7385991}
+}
+
+@inproceedings{pant2014peak,
+  title={{Peak Power Reduction in Hybrid Energy Systems with Limited Load Forecasts}},
+  author={Pant, Yash Vardhan and Nghiem, Truong X and Mangharam, Rahul},
+  booktitle={American Control Conference (ACC)},
+  pages={4212--4217},
+  year={2014},
+  organization={IEEE},
+  abstract={Hybrid energy systems, which consist of a load powered by a source and a form of energy storage, find applications in many systems, e.g., the electric grid and electric vehicles. A key problem for hybrid energy systems is the reduction of peak power consumption to ensure cost-efficient operation as peak power draws require additional resources and adversely affect the system reliability and lifetime. Furthermore, in some cases such as electric vehicles, the load dynamics are fast, not perfectly known in advance and the on-board computation power is often limited, making the implementation of traditional optimal control difficult. We aim to develop a control scheme to reduce the peak power drawn from the source for hybrid energy systems with limited computation power and limited load forecasts. We propose a scheme with two control levels and provide a sufficient condition for control of the different energy storage/generation components to meet the instantaneous load while satisfying a peak power threshold. The scheme provides performance comparable to Model Predictive Control, while requiring less computation power and only coarse-grained load predictions. For a case study, we implement the scheme for a battery-supercapacitor-powered electric vehicle with real world drive cycles to demonstrate the low execution time and effective reduction of the battery power (hence temperature), which is crucial to the lifetime of the battery.},
+  url={https://repository.upenn.edu/cgi/viewcontent.cgi?article=1084&context=mlab_papers}
+}
+
+@inproceedings{pant2019tool,
+  title={{Fly-by-Logic: A Tool for Unmanned Aircraft System Fleet Planning using Temporal Logic}},
+  author={Pant, Yash Vardhan and Quaye, Rhudii A. and Abbas, Houssam and Varre, Akarsh and Mangharam, Rahul},
+  booktitle={NASA Formal Methods Symposium},
+  year = {2019},
+  organization={NASA},
+  code={https://github.com/yashpant/FlyByLogic},
+  abstract={Safe planning for fleets of Unmaned Aircraft Systems (UAS) performing complex missions in urban environments has typically been a challenging problem. In the United States of America, the National Aeronautics and Space Administration (NASA) and the Federal Aviation Administration (FAA) have been studying the regulation of the airspace when multiple such fleets of autonomous UAS share the same airspace, outlined in the Concept of Operations document (ConOps). While the focus is on the infrastructure and management of the airspace, the Unmanned Aircraft System (UAS) Traffic Management (UTM) ConOps also outline a potential airspace reservation based system for operation where operators reserve a volume of the airspace for a given time inter- val to operate in, but it makes clear that the safety (separation from other aircraft, terrain, and other hazards) is a responsibility of the drone fleet operators. In this work, we present a tool that allows an operator to plan out missions for fleets of multi-rotor UAS, performing complex time- bound missions. The tool builds upon a correct-by-construction planning method by translating missions to Signal Temporal Logic (STL). Along with a simple user interface, it also has fast and scalable mission planning abilities. We demonstrate our tool for one such mission.},
+  url={https://repository.upenn.edu/cgi/viewcontent.cgi?article=1139&context=mlab_papers}
+}
+
+@inproceedings{drolia2011autoplug,
+  title={{Autoplug: An automotive test-bed for electronic controller unit testing and verification}},
+  author={Drolia, Utsav* and Wang, Zhenyan* and Pant, Yash Vardhan* and Mangharam, Rahul},
+  booktitle={IEEE International Conference on Intelligent Transportation Systems},
+  pages={1187--1192},
+  year={2011},
+  organization={IEEE},
+  abstract={In 2010, over 20.3 million vehicles were recalled. Software issues related to automotive controls such as cruise control, anti-lock braking system, traction control and stability control, account for an increasingly large percentage of the overall vehicles recalled. There is a need for new and scalable methods to evaluate automotive controls in a realistic and open setting. We have developed AutoPlug, an automotive Electronic Controller Unit (ECU) test-bed to diagnose, test, update and verify controls software. AutoPlug consists of multiple ECUs interconnected by a CAN bus, a race car driving simulator which behaves as the plant model and a vehicle controls monitor in Matlab. As the ECUs drive the simulated vehicle, the physicsbased simulation provides feedback to the controllers in terms of acceleration, yaw, friction and vehicle stability. This closedloop platform is then used to evaluate multiple vehicle control software modules such as traction, stability and cruise control. With this test-bed we highlight approaches for runtime ECU software diagnosis and testing of the stability and performance of the vehicle. Code updates can be executed via a smart phone so drivers may remotely “patch” their vehicle. This closedloop automotive control test-bed allows the automotive research community to explore the capabilities and challenges of safe and secure remote code updates for vehicle recalls management.},
+  url={https://repository.upenn.edu/cgi/viewcontent.cgi?article=1045&context=mlab_papers}
+}
+
+
+
