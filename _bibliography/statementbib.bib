@@ -4,7 +4,17 @@
   booktitle={IEEE International Conference on Intelligent Transportation Systems (to appear)},
   year={2020},
   abstract={With increasing urban population, there is global interest in Urban Air Mobility (UAM), where hundreds of autonomous Unmanned Aircraft Systems (UAS) execute missions in the airspace above cities. Unlike traditional human-in-the-loop air traffic management, UAM requires decentralized autonomous approaches that scale for an order of magnitude higher aircraft densities and are applicable to urban settings. We present Learning-to-Fly (L2F), a decentralized on-demand airborne collision avoidance framework for multiple UAS that allows them to independently plan and safely execute missions with spatial, temporal and reactive objectives expressed using Signal Temporal Logic. We formulate the problem of predictively avoiding collisions between two UAS without violating mission objectives as a Mixed Integer Linear Program (MILP). This however is intractable to solve online. Instead we develop L2F, a two-stage collision avoidance method that consists of: 1)a learning-based decision making scheme and 2) a distributed, linear programming-based UAS control algorithm. Through extensive simulations, we show the real-time applicability of our method which is ≈ 6000× faster than the MILP approach and can resolve 99.4% of collisions when there is ample room to maneuver, and shows graceful degradation in performance otherwise. We also compare L2F to two other methods and demonstrate an implementation on quad-rotor robots.},
+ url={https://arxiv.org/abs/2006.13267}
 }
+
+@inproceedings{jang2020dasc,
+  title={{Learning-to-Fly RL: Reinforcement Learning-based Collision Avoidance for Scalable Urban Air Mobility}},
+  author={Jang, Kuk J. and Pant, Yash Vardhan and  Rodionova, Alena and Mangharam, Rahul},
+  booktitle={AIAA/IEEE Digital Avionics Systems Conference (DASC)  (to appear)},
+  abstract={As hundreds of Unmanned Aircraft System (UAS) operate within urban airspaces, automated and decentralized UAS traffic management (UTM) will be critical to maintain safe and efficient operations. In this work, we present Learning-to-Fly with Reinforcement Learning (L2F-RL), a decentralized, on-demand Collision Avoidance (CA) framework that systematically combines machine learning with cooperative model predictive control for UAS collision avoidance while retaining satisfaction of higher-level mission objectives. L2F-RL consists of: 1) RL-based policy for conflict resolution (CR) with discrete-decision making, 2) decentralized, cooperative model predictive control for CA. To accelerate training with RL, we utilize reward shaping and curriculum learning. Our approach outperforms baseline approaches with a 99.01% separation rate (ratio of success to total test cases) in the worst case, improving to 100% in the best case with a 1000X improvement in computation time compared to centralized methods. Our results demonstrate the potential of combining learning approaches with optimization-based control, making it a significant contribution towardsscalable, decentralized UTM.},
+  year={2020}
+ }
+
 
 
 @inproceedings{fremont2020formal,
