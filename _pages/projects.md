@@ -4,11 +4,17 @@ title: research
 permalink: /projects/
 description: Also see the publications page
 ---
-### Learning-to-Fly: Learning-based mission-aware Drone Collision Avoidance for Scalable Urban Air Mobility
+### Learning-to-Fly (L2F): Learning-based mission-aware Collision Avoidance
+
+In order for fleets of drones managed by different operators to share an airspace, they require a fast, reliable and fair Collision Avoidance (CA) approach to ensure safety. This project aims to develop such methods by combining learning-based decision making and decentralized Model Predictive Control to perform on-the-fly, predictive Collision Avoidance (CA) between two (co-operative) drones. In addition to performing CA in real-time, L2F also ensures that the drones do not violate their original mission requirements. The video below shows a simulation where two pairs of drones are have conflicting pre-planned trajectories, and also shows the resulting safe trajectories obtained via L2F.
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/KXXPIx0Pnbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+#### Related Publications:
+
+1. Rodionova, Pant, Jang, Abbas, Mangharam. Mission-aware, [Learning-to-Fly: Learning-based Collision Avoidance for Scalable Urban Air Mobility](https://arxiv.org/abs/2006.13267){:target="_blank"}. IEEE International Conference on Intelligent Transportation Systems (ITSC), 2020.
+2. Jang, Pant, Rodionova,  Mangharam. Learning-to-Fly RL: Reinforcement Learning-based Collision Avoidance for Scalable Urban Air Mobility. AIAA/IEEE Digital Avionics Systems Conference (DASC), 2020.
 
 ### Fly-by-Logic: Safe-planning for Drone Fleets
 
@@ -17,6 +23,8 @@ description: Also see the publications page
 Safe planning and control of multi-rotor drone fleets performing complex missions has been a challenging problem. Methods that offer guarantees on safety and mission satisfaction generally do not scale well. On the other hand, more computationally tractable approaches do not offer any safety guarantees. This project develops methods that overcomes these limitations for a wide variety of missions, e.g. the video below shows a mission where 2 pairs of drones are tasked with patrolling two regions within predefined time intervals, and while avoiding a no-fly zone and collisions with each other.
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/xBQnEweVwZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 <!---
 In general the missions that we consider that can consist of a combination of the following objectives: 
 
@@ -30,9 +38,9 @@ We show the performance, scalability and real-time applicability of our method t
 --->
 #### Related Publications:
 
-1. Pant, Quaye, Abbas, Varre, Mangharam, [Fly-by-Logic: A Tool for Unmanned Aircraft System Fleet Planning using Temporal Logic](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1139&context=mlab_papers), NASA FM, 2019.
-2. Pant, Abbas, Quaye, Mangharam, [Fly-by-Logic: Control of Multi-Drone Fleets with Temporal Logic Objectives](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1127&context=mlab_papers), ICCPS, 2018.
-3. Pant, Abbas, Mangharam, Smooth Operator, [Smooth Operator: Control using the Smooth Robustness of Temporal Logic](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1119&context=mlab_papers), CCTA, 2017.
+1. Pant, Quaye, Abbas, Varre, Mangharam. [Fly-by-Logic: A Tool for Unmanned Aircraft System Fleet Planning using Temporal Logic](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1139&context=mlab_papers){:target="_blank"}, NASA FM, 2019.
+2. Pant, Abbas, Quaye, Mangharam. [Fly-by-Logic: Control of Multi-Drone Fleets with Temporal Logic Objectives](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1127&context=mlab_papers){:target="_blank"}, ICCPS, 2018.
+3. Pant, Abbas, Mangharam. Smooth Operator, [Smooth Operator: Control using the Smooth Robustness of Temporal Logic](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1119&context=mlab_papers){:target="_blank"}, CCTA, 2017.
 
 ### Co-design of Anytime Computation and Control for Autonomous Systems
 
@@ -43,10 +51,10 @@ Perception-based state estimation for autonomous system is generally a computati
 
 #### Related Publications:
 
-1. Pant, Abbas, Mohta, Quaye, Nghiem, Devietti, Mangharam, Anytime Computation and Control for Autonomous Systems, *submitted to the IEEE Transactions on Control Systems Technology*.
-2. Pant, Abbas, Mangharam, [Robust Model Predictive Control for Non-Linear Systems with Input and State Constraints via Feedback Linearization](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1113&context=mlab_papers), CDC, 2016.
-3. Pant, Abbas, Mohta, Nghiem, Devietti, Mangharam [Co-design of Anytime Computation and Robust Control](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1110&context=mlab_papers), RTSS, 2015.
-4. Pant, Abbas, Nischal, Kelkar, Kumar, Devietti, Mangharam [Power-efficient Algorithms for Autonomous Navigation](https://ieeexplore.ieee.org/document/7385991), ICCSE, 2015.
+1. Pant, Abbas, Mohta, Quaye, Nghiem, Devietti, Mangharam. [Anytime Computation and Control for Autonomous Systems](https://ieeexplore.ieee.org/abstract/document/9051687){:target="_blank"}, IEEE Transactions on Control Systems Technology, 2020.
+2. Pant, Abbas, Mangharam. [Robust Model Predictive Control for Non-Linear Systems with Input and State Constraints via Feedback Linearization](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1113&context=mlab_papers){:target="_blank"}, CDC, 2016.
+3. Pant, Abbas, Mohta, Nghiem, Devietti, Mangharam. [Co-design of Anytime Computation and Robust Control](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1110&context=mlab_papers){:target="_blank"}, RTSS, 2015.
+4. Pant, Abbas, Nischal, Kelkar, Kumar, Devietti, Mangharam [Power-efficient Algorithms for Autonomous Navigation](https://ieeexplore.ieee.org/document/7385991){:target="_blank"}, ICCSE, 2015.
 
 ### Protodrive: Peak Power Reduction for Hybrid Energy Storage Systems with Limited Load Forecasts
 
@@ -54,15 +62,15 @@ Perception-based state estimation for autonomous system is generally a computati
 
 #### Related Publications:
 
-1. Pant, Nghiem, Manhgaram, [Peak Power Reduction in Hybrid Energy Systems with Limited Load Forecasts](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1084&context=mlab_papers), ACC, 2014.
-2. Price, Jain, Pant, Mangharam, Final Report: Protodrive: Simulation of Electric Vehicle Powertrains, World Embedded Software Competition (*third place finish*), 2013.
+1. Pant, Nghiem, Mangharam. [Peak Power Reduction in Hybrid Energy Systems with Limited Load Forecasts](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1084&context=mlab_papers){:target="_blank"}, ACC, 2014.
+2. Price, Jain, Pant, Mangharam. Final Report: Protodrive: Simulation of Electric Vehicle Powertrains, World Embedded Software Competition (*third place finish*), 2013.
 ### AutoPlug: Hardware-in-the-loop Electronic Controller Unit Testing
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/vchbkNtnr-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Related Publications:
 
-1. Drolia, Wang, Pant, Mangharam, [Autoplug: An automotive test-bed for electronic controller unit testing and verification](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1045&context=mlab_papers), ITSC, 2011.
+1. Drolia, Wang, Pant, Mangharam. [Autoplug: An automotive test-bed for electronic controller unit testing and verification](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1045&context=mlab_papers){:target="_blank"}, ITSC, 2011.
 
 <!--- <iframe width="560" height="315" src="https://www.youtube.com/embed/7LvY-Bj85Us" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
