@@ -4,6 +4,11 @@ title: research
 permalink: /projects/
 description: Also see the publications page
 ---
+### Learning-to-Fly: Learning-based mission-aware Drone Collision Avoidance for Scalable Urban Air Mobility
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/KXXPIx0Pnbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 ### Fly-by-Logic: Safe-planning for Drone Fleets
 
