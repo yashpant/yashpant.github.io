@@ -34,7 +34,7 @@
   journal={IEEE Transactions on Control Systems Technology},
   year={2020},
   abstract={The correct and timely completion of the sensing and action loop is of utmost importance in safety critical autonomous systems. Crucial to the performance of this feedback control loop are the computation time and accuracy of the estimator which produces state estimates used by the controller. These state estimators often use computationally expensive perception algorithms like visual feature tracking. With on-board computers on autonomous robots being computationally limited, the computation time of such an estimation algorithm can at times be high enough to result in poor control performance. We develop a framework for codesign of anytime estimation and robust control algorithms, taking into account computation delays and estimation inaccuracies. This is achieved by constructing an anytime estimator from an off-the-shelf perception-based estimation algorithm and obtaining a trade-off curve for its computation time versus estimation error. This is used in the design of a robust predictive control algorithm that at run-time decides a contract, or operation mode, for the estimator in addition to controlling the dynamical system to meet its control objectives at a reduced computation energy cost. This codesign provides a mechanism through which the controller can use the tradeoff curve to reduce estimation delay at the cost of higher inaccuracy, while guaranteeing satisfaction of control objectives. Experiments on a hexrotor platform running a visual-based algorithm for state estimation show how our method results in up to a 10% improvement in control performance while simultaneously saving 5%-6% in computation energy as compared to a method that does not leverage the codesign.},
-  url={files/TCST20.pdf}
+  url={../files/TCST20.pdf}
   
 }
 
@@ -125,7 +125,7 @@ url={https://repository.upenn.edu/cgi/viewcontent.cgi?article=1137&context=mlab_
   year={2015},
   organization={IEEE},
   abstract={Real-time navigation of autonomous vehicles requires the processing of a large amount of sensor data by the perception algorithms onboard the vehicle, like object detection and localization. To meet the driving performance and safety requirements, these algorithms require the hardware to be over-engineered to always operate for the worst-case. This leads to excessive power consumption by the computation platform. In this paper, we study how platform-level optimizations affect the computation throughput and power, and how to use this trade-off to save computation power without overly degrading throughput and control performance. The approach uses an offline profiling stage of the perception algorithm, which gives us Throughput versus Power curves for various processor frequencies and various scheduling of the perception code on CPU and GPU. At runtime, we combine power and throughput into one objective function, and design a supervisor what will determine the frequency and CPU/GPU allocation to maximize the objective. We illustrate our approach on a scaled-down autonomous car which uses Vanishing Point navigation. Experimental results demonstrate that we can achieve an energy savings of upto 20% while degrading control performance by less than 1%.},
-  url={https://ieeexplore.ieee.org/document/7385991}
+  url={../files/ICCSE15.pdf}
 }
 
 @inproceedings{pant2014peak,
