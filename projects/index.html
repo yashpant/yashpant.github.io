@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Yash Vardhan Pant | research</title>
+  <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/projects/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong>Yash</strong> Pant
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">about</a>
+
+        <!-- Blog -->
+        <a class="page-link" href="/blog/">blog</a>
+
+        <!-- Pages -->
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="/projects/">research</a>
+          
+        
+          
+            <a class="page-link" href="/publications/">publications</a>
+          
+        
+          
+            <a class="page-link" href="/teaching/">teaching</a>
+          
+        
+          
+        
+          
+        
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">research</h1>
+    <h5 class="post-description">Also see the publications page</h5>
+  </header>
+
+  <article class="post-content research clearfix">
+    <h3 id="learning-to-fly-l2f-learning-based-mission-aware-collision-avoidance">Learning-to-Fly (L2F): Learning-based mission-aware Collision Avoidance</h3>
+
+<p>In order for fleets of drones managed by different operators to share an airspace, they require a fast, reliable and fair Collision Avoidance (CA) approach to ensure safety. This project aims to develop such methods by combining learning-based decision making and decentralized Model Predictive Control to perform on-the-fly, predictive Collision Avoidance (CA) between two (co-operative) drones. In addition to performing CA in real-time, L2F also ensures that the drones do not violate their original mission requirements. The video below shows a simulation where two pairs of drones are have conflicting pre-planned trajectories, and also shows the resulting safe trajectories obtained via L2F.</p>
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/KXXPIx0Pnbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h4 id="related-publications">Related Publications:</h4>
+
+<ol>
+  <li>Rodionova, Pant, Jang, Abbas, Mangharam. Mission-aware, <a href="https://arxiv.org/abs/2006.13267" target="_blank">Learning-to-Fly: Learning-based Collision Avoidance for Scalable Urban Air Mobility</a>. IEEE International Conference on Intelligent Transportation Systems (ITSC), 2020.</li>
+  <li>Jang, Pant, Rodionova,  Mangharam. Learning-to-Fly RL: Reinforcement Learning-based Collision Avoidance for Scalable Urban Air Mobility. AIAA/IEEE Digital Avionics Systems Conference (DASC), 2020.</li>
+</ol>
+
+<h3 id="fly-by-logic-safe-planning-for-drone-fleets">Fly-by-Logic: Safe-planning for Drone Fleets</h3>
+
+<!--- <iframe width="480" height="360" src="https://www.youtube.com/embed/7LvY-Bj85Us" frameborder="0" allowfullscreen></iframe> --->
+
+<p>Safe planning and control of multi-rotor drone fleets performing complex missions has been a challenging problem. Methods that offer guarantees on safety and mission satisfaction generally do not scale well. On the other hand, more computationally tractable approaches do not offer any safety guarantees. This project develops methods that overcomes these limitations for a wide variety of missions, e.g. the video below shows a mission where 2 pairs of drones are tasked with patrolling two regions within predefined time intervals, and while avoiding a no-fly zone and collisions with each other.</p>
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/xBQnEweVwZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<!---
+In general the missions that we consider that can consist of a combination of the following objectives: 
+
+1. spatial objectives, e.g. geofenced no fly zones, or delivery zones, 
+2. temporal objectives, e.g. a time window to monitor wireless signal strengths in an area,
+3. reactive objectives, e.g. in case of a drone failure, another drone picks up its mission.
+
+Our approach [1], while being computationally tractable, offers guarantees on mission satisfaction, and avoids the oversimplifying abstractions found in many methods. We use Signal Temporal Logic (STL) for mission specification, which allows us to specify a wide variety of missions. Starting from the given STL mission specification, we formulate a non-convex optimization problem, solved to local optimality in a centralized manner, that incorporates an efficient representation of the multi-rotor drone's trajectories. We also formulate additional constraints which result in trajectories that can be tracked near perfectly by off-the-shelf lower level controllers. 
+
+We show the performance, scalability and real-time applicability of our method through simulations and experiments on actual quadrotor drones. 
+--->
+<h4 id="related-publications-1">Related Publications:</h4>
+
+<ol>
+  <li>Pant, Quaye, Abbas, Varre, Mangharam. <a href="https://repository.upenn.edu/cgi/viewcontent.cgi?article=1139&amp;context=mlab_papers" target="_blank">Fly-by-Logic: A Tool for Unmanned Aircraft System Fleet Planning using Temporal Logic</a>, NASA FM, 2019.</li>
+  <li>Pant, Abbas, Quaye, Mangharam. <a href="https://repository.upenn.edu/cgi/viewcontent.cgi?article=1127&amp;context=mlab_papers" target="_blank">Fly-by-Logic: Control of Multi-Drone Fleets with Temporal Logic Objectives</a>, ICCPS, 2018.</li>
+  <li>Pant, Abbas, Mangharam. Smooth Operator, <a href="https://repository.upenn.edu/cgi/viewcontent.cgi?article=1119&amp;context=mlab_papers" target="_blank">Smooth Operator: Control using the Smooth Robustness of Temporal Logic</a>, CCTA, 2017.</li>
+</ol>
+
+<h3 id="co-design-of-anytime-computation-and-control-for-autonomous-systems">Co-design of Anytime Computation and Control for Autonomous Systems</h3>
+
+<p>Perception-based state estimation for autonomous system is generally a computationally expensive process, both in terms of execution time and energy consumption on the computation platform. This work develops a contract-driven framework for closed-loop interplay between: a) a predictive control algorithm and b) a flexible <a href="https://en.wikipedia.org/wiki/Anytime_algorithm" target="_blank"><em>anytime</em></a> perception-based state estimator to trade-off computation time (and energy) for estimation accuracy while guaranteeing robust (or chance-constrained) constraint satisfaction of the autonomous system. Experimental results show the benefit of this framework over approaches that do not leverage this co-design.</p>
+
+<p><img src="/assets/img/anytime.png" alt="drawing" width="700" /></p>
+
+<h4 id="related-publications-2">Related Publications:</h4>
+
+<ol>
+  <li>Pant, Abbas, Mohta, Quaye, Nghiem, Devietti, Mangharam. <a href="https://ieeexplore.ieee.org/abstract/document/9051687" target="_blank">Anytime Computation and Control for Autonomous Systems</a>, IEEE Transactions on Control Systems Technology, 2020.</li>
+  <li>Pant, Abbas, Mangharam. <a href="https://repository.upenn.edu/cgi/viewcontent.cgi?article=1113&amp;context=mlab_papers" target="_blank">Robust Model Predictive Control for Non-Linear Systems with Input and State Constraints via Feedback Linearization</a>, CDC, 2016.</li>
+  <li>Pant, Abbas, Mohta, Nghiem, Devietti, Mangharam. <a href="https://repository.upenn.edu/cgi/viewcontent.cgi?article=1110&amp;context=mlab_papers" target="_blank">Co-design of Anytime Computation and Robust Control</a>, RTSS, 2015.</li>
+  <li>Pant, Abbas, Nischal, Kelkar, Kumar, Devietti, Mangharam <a href="https://ieeexplore.ieee.org/document/7385991" target="_blank">Power-efficient Algorithms for Autonomous Navigation</a>, ICCSE, 2015.</li>
+</ol>
+
+<h3 id="protodrive-peak-power-reduction-for-hybrid-energy-storage-systems-with-limited-load-forecasts">Protodrive: Peak Power Reduction for Hybrid Energy Storage Systems with Limited Load Forecasts</h3>
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/ZWIuTwJ4Npk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h4 id="related-publications-3">Related Publications:</h4>
+
+<ol>
+  <li>Pant, Nghiem, Mangharam. <a href="https://repository.upenn.edu/cgi/viewcontent.cgi?article=1084&amp;context=mlab_papers" target="_blank">Peak Power Reduction in Hybrid Energy Systems with Limited Load Forecasts</a>, ACC, 2014.</li>
+  <li>Price, Jain, Pant, Mangharam. Final Report: Protodrive: Simulation of Electric Vehicle Powertrains, World Embedded Software Competition (<em>third place finish</em>), 2013.
+    <h3 id="autoplug-hardware-in-the-loop-electronic-controller-unit-testing">AutoPlug: Hardware-in-the-loop Electronic Controller Unit Testing</h3>
+  </li>
+</ol>
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/vchbkNtnr-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h4 id="related-publications-4">Related Publications:</h4>
+
+<ol>
+  <li>Drolia, Wang, Pant, Mangharam. <a href="https://repository.upenn.edu/cgi/viewcontent.cgi?article=1045&amp;context=mlab_papers" target="_blank">Autoplug: An automotive test-bed for electronic controller unit testing and verification</a>, ITSC, 2011.</li>
+</ol>
+
+<!--- <iframe width="560" height="315" src="https://www.youtube.com/embed/7LvY-Bj85Us" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+
+<video width="320" height="240" controls>
+  <source src="~/Videos/8Quad.avi" type="video/avi">
+</video>--->
+<!---
+<div class="img_row">
+    <img class="col one left" src="/assets/img/1.jpg" alt="" title="example image"/>
+    <img class="col one left" src="/assets/img/2.jpg" alt="" title="example image"/>
+    <img class="col one left" src="/assets/img/3.jpg" alt="" title="example image"/>
+</div>
+--->
+
+<!---
+
+
+
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="/projects/1_project/">
+        
+        <img class="thumbnail" src="/assets/img/12.jpg"/>
+            
+        <span>
+            <h1>Project 1</h1>
+            <br/>
+            <p>a project with a background image</p>
+        </span>
+        </a>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="/projects/2_project/">
+        
+        <img class="thumbnail" src="/assets/img/2.jpg"/>
+            
+        <span>
+            <h1>Project 2</h1>
+            <br/>
+            <p>a project with a background image</p>
+        </span>
+        </a>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="project">
+    <div class="thumbnail">
+        <a href="https://unsplash.com" target="_blank">
+        
+        <div class="thumbnail blankbox"></div>
+            
+        <span>
+            <h1>Project 3</h1>
+            <br/>
+            <p>a project that redirects to another website</p>
+        </span>
+        </a>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="/projects/4_project/">
+        
+        <div class="thumbnail blankbox"></div>
+            
+        <span>
+            <h1>Project 4</h1>
+            <br/>
+            <p>another without an image</p>
+        </span>
+        </a>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="/projects/5_project/">
+        
+        <img class="thumbnail" src="/assets/img/1.jpg"/>
+            
+        <span>
+            <h1>Project 5</h1>
+            <br/>
+            <p>a project with a background image</p>
+        </span>
+        </a>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="/projects/6_project/">
+        
+        <div class="thumbnail blankbox"></div>
+            
+        <span>
+            <h1>Project 6</h1>
+            <br/>
+            <p>a project with no image</p>
+        </span>
+        </a>
+    </div>
+</div>
+
+
+
+
+--->
+
+  </article>
+
+  
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2021 Yash Vardhan Pant.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXXXXXX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
