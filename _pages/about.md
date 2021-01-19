@@ -17,7 +17,7 @@ social: true
 My research interests lie in using elements of Control Theory, Formal Methods, Machine Learning and Optimization to solve problems in Safe Autonomy of Robotic and other Cyber-Physical Systems, and Human-Robot Interaction.
 [[Curriculum Vitae]](files/CV_YashVardhanPant.pdf){:target="\_blank"}
 
-I am currently a Postdoctoral Fellow in the EECS Department at UC Berkeley. As a part of the [VeHICaL project](http://vehical.org){:target="_blank"}, I am mentored by Professor [Sanjit Seshia](http://people.eecs.berkeley.edu/~sseshia/){:target="_blank"} (primarily) and Professor [Bjoern Hartmann](https://people.eecs.berkeley.edu/~bjoern/){:target="_blank"} at UC Berkeley. 
+I am currently a Postdoctoral Fellow in the EECS Department at UC Berkeley. As a part of the [VeHICaL project](http://vehical.org){:target="_blank"}, I am mentored by Professors [Sanjit Seshia](http://people.eecs.berkeley.edu/~sseshia/){:target="_blank"} (primarily) and [Bjoern Hartmann](https://people.eecs.berkeley.edu/~bjoern/){:target="_blank"}.
 
 [//]: # (and Professor [Richard Murray](http://www.cds.caltech.edu/~murray/wiki/Main_Page){:target="_blank"} at Caltech.)
 
