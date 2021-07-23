@@ -3,6 +3,7 @@ layout: page
 title: research
 permalink: /projects/
 description: Also see the publications page
+nav: true
 ---
 ### Learning-to-Fly (L2F): Learning-based mission-aware Collision Avoidance
 
@@ -64,6 +65,7 @@ Perception-based state estimation for autonomous system is generally a computati
 
 1. Pant, Nghiem, Mangharam. [Peak Power Reduction in Hybrid Energy Systems with Limited Load Forecasts](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1084&context=mlab_papers){:target="_blank"}, ACC, 2014.
 2. Price, Jain, Pant, Mangharam. Final Report: Protodrive: Simulation of Electric Vehicle Powertrains, World Embedded Software Competition (*third place finish*), 2013.
+
 ### AutoPlug: Hardware-in-the-loop Electronic Controller Unit Testing
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/vchbkNtnr-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -129,3 +131,53 @@ Perception-based state estimation for autonomous system is generally a computati
 
 {% endfor %}
 --->
+
+<!--
+---
+layout: page
+title: projects
+permalink: /projects/
+description: A growing collection of your cool projects.
+nav: false
+---
+
+<div class="projects grid">
+
+  {% assign sorted_projects = site.projects | sort: "importance" %}
+  {% for project in sorted_projects %}
+  <div class="grid-item">
+    {% if project.redirect %}
+    <a href="{{ project.redirect }}" target="_blank">
+    {% else %}
+    <a href="{{ project.url | relative_url }}">
+    {% endif %}
+      <div class="card hoverable">
+        {% if project.img %}
+        <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+        {% endif %}
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
+          <p class="card-text">{{ project.description }}</p>
+          <div class="row ml-1 mr-1 p-0">
+            {% if project.github %}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="{{ project.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+              {% if project.github_stars %}
+              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                <i class="fas fa-star"></i>
+                <span id="{{ project.github_stars }}-stars"></span>
+              </span>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+{% endfor %}
+
+</div>
+-->
