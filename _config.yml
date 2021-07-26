@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yash Vardhan
 middle_name:
 last_name: Pant
-email: yashpant@berkeley.edu
+email: yash.pant@uwaterloo.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Research website 
 footer_text: >
@@ -42,9 +42,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: yashvpant
+github_username: yashpant
 twitter_username:  # your Twitter handle
-linkedin_username:  # your LinkedIn user name
+linkedin_username: yashpant # your LinkedIn user name
 scholar_userid: hdQid8kAAAAJ # your Google Scholar ID
 #orcid_id: # your ORCID ID
 #medium_username: # your Medium username
