@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 
 My research interests lie in using elements of Control Theory, Formal Methods, Machine Learning and Optimization to solve problems in Safe Autonomy of Robotic and other Cyber-Physical Systems, and Human-Robot Interaction.
-[[Curriculum Vitae]](files/CV_YashVardhanPant.pdf){:target="\_blank"}
+[[Curriculum Vitae]](assets/files/CV_YashVardhanPant.pdf){:target="\_blank"}
 
 Prior to joining the University of Waterloo, I was a Postdoctoral Fellow in the EECS Department at UC Berkeley. As a part of the [VeHICaL project](http://vehical.org){:target="_blank"}, I was mentored by Professors [Sanjit Seshia](http://people.eecs.berkeley.edu/~sseshia/){:target="_blank"} (primarily) and [Bjoern Hartmann](https://people.eecs.berkeley.edu/~bjoern/){:target="_blank"}.
 
