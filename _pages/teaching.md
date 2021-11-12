@@ -20,6 +20,7 @@ nav: true
 
 -->
 
+- <bold> Instructor </bold> Model Predictive Control (ECE 780) , Winter 2022, University of Waterloo. [Tentative Syllabus](/assets/courses/ECE780MPC/ECE780.pdf){:target="\_blank"}  
 
 - <bold>Teaching Assistant</bold> Control Theory (ESE 406, ESE 505), Fall 2013 & Fall 2014, University of Pennsylvania
 

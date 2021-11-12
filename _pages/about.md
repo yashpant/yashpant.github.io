@@ -17,7 +17,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-<b> Announcement (July 2021): I have joined the University of Waterloo as a Tenure-track Assistant Professor in the ECE department. I am looking to hire (jointly with [Sebastian Fischmeister](https://uwaterloo.ca/embedded-software-group/people-profiles/sebastian-fischmeister){:target="_blank"}) PhD students to work on problems in safety assurance of autonomous systems. Please send me an email with your CV if you are interested. </b>
+<b> Announcement (July 2021): I have joined the University of Waterloo as a Tenure-track Assistant Professor in the ECE department. I am looking to hire (jointly with [Sebastian Fischmeister](https://uwaterloo.ca/embedded-software-group/people-profiles/sebastian-fischmeister){:target="_blank"}) PhD and MS (thesis) students to work on problems in safety assurance of autonomous systems. Please send me an email with your CV if you are interested. </b>
 
 
 My research interests lie in using elements of Control Theory, Formal Methods, Machine Learning and Optimization to solve problems in Safe Autonomy of Robotic and other Cyber-Physical Systems, and Human-Robot Interaction.
