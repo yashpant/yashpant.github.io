@@ -1,3 +1,25 @@
+@inproceedings{pirani2022acc,
+ author = {Pirani, Mohammad  and She, Yining and Tang, Renzhi and Jiang, Zhihao and Pant, Yash Vardhan},
+ title={{Stable Interaction of Autonomous Vehicle Platoons with Human-Driven Vehicles}},   
+ booktitle={American Control Conference (ACC)},
+ year={2022},
+ img={ACC2022.png},
+ abstract={A necessary prerequisite for the safe interaction of autonomous systems with a human-driven vehicle is for the overall closed-loop system (autonomous systems plus human-driven vehicle) to be stable. This paper studies the safe and stable interaction between a platoon of autonomous vehicles and a set of human-driven vehicles. Considering the longitudinal motion of the vehicles in the platoon, the problem is to ensure a safe emergency braking by the autonomous platoon considering the actions of human-driven vehicles, which may vary based on the driver type. We consider two types of platoon topologies, namely unidirectional and bidirectional. Safe emergency braking is characterized by a specific type of platoon stability, called head-to-tail stability (HTS). We present system-theoretic necessary and sufficient conditions for the combination of the autonomous platoon and human-driven vehicles to be HTS for two platoon control laws, namely the velocity tracking and the platoon formation. Modeling the input-output behavior of each vehicle via a transfer function, the HTS conditions restrict the human-driven vehicles’ transfer functions to have $H_{\infty}$  norms below certain thresholds. A safe interaction algorithm first identifies the transfer functions of the human-driven vehicles. Then, it tunes the platoon control gains such that the overall system meets HTS conditions. Theoretical results are validated with both experimental data with human subject studies and simulation studies.}
+}
+
+
+@inproceedings{viswanadha2021addressing,
+  title={Addressing the IEEE AV test challenge with Scenic and VerifAI},
+  author={Viswanadha, Kesav and Indaheng, Francis and Wong, Justin and Kim, Edward and Kalvan, Ellen and Pant, Yash and Fremont, Daniel J and Seshia, Sanjit A},
+  booktitle={2021 IEEE International Conference on Artificial Intelligence Testing (AITest)},
+  pages={136--142},
+  year={2021},
+  organization={IEEE},
+  img={AITest2021.png},
+  abstract={This paper summarizes our formal approach to testing autonomous vehicles (AVs) in simulation for the IEEE AV Test Challenge. We demonstrate a systematic testing framework leveraging our previous work on formally-driven simulation for intelligent cyber-physical systems. First, to model and generate interactive scenarios involving multiple agents, we used SCENIC, a proba bilistic programming language for specifying scenarios. A SCENIC program defines an abstract scenario as a distribution over configurations of physical objects and their behaviors over time. Sampling from an abstract scenario yields many different concrete scenarios which can be run as test cases for the AV. Starting from a SCENIC program encoding an abstract driving scenario, we can use the VERIFAI toolkit to search within the scenario for failure cases with respect to multiple AV evaluation metrics. We demonstrate the effectiveness of our testing framework by identifying concrete failure scenarios for an open-source autopilot, Apollo, starting from a variety of realistic traffic scenarios.}
+}
+
+
 @inproceedings{tuck2021ccta,
   title={{DEC-LOS-RRT:} Decentralized path planning for multi-robot systems with Line-of-sight constrained communication},
   author={Tuck, Victoria and Pant, Yash Vardhan and Seshia, Sanjit A. and Sastry, S Shankar},
@@ -5,7 +27,7 @@
   year={2021},
   organization={IEEE},
   img={ccta21.png},
-  abstract={Decentralized  planning  for  multi-agent  systems,such as fleets of robots in a search-and-rescue operation, is oftenconstrained by limitations on how agents can communicate witheach  other.  One  such  limitation  is  the  case  when  agents  cancommunicate  with  each  other  only  when  they  are  in  line-of-sight  (LOS).  Developing  decentralized  planning  methods  thatguarantee  safety  is  difficult  in  this  case,  as  agents  that  areoccluded  from  each  other  might  not  be  able  to  communicateuntil  it’s  too  late  to  avoid  a  safety  violation.  In  this  paper,  wedevelop a decentralized planning method that explicitly avoidssituations  where  lack of visibility  of  other  agents  would  leadto an unsafe situation. Building on top of an existing Rapidly-exploring  Random  Tree  (RRT)-based  approach,  our  methodguarantees  safety  at  each  iteration.  Simulation  studies  showthe  effectiveness  of  our  method  and  compare  the  degradationin  performance  with  respect  to  a  clairvoyant  decentralizedplanning algorithm where agents can communicate despite notbeing  in  LOS  of  each  other.}
+  abstract={Decentralized  planning  for  multi-agent  systems,such as fleets of robots in a search-and-rescue operation, is oftenconstrained by limitations on how agents can communicate witheach  other.  One  such  limitation  is  the  case  when  agents  cancommunicate  with  each  other  only  when  they  are  in  line-of-sight  (LOS).  Developing  decentralized  planning  methods  thatguarantee  safety  is  difficult  in  this  case,  as  agents  that  areoccluded  from  each  other  might  not  be  able  to  communicateuntil  it’s  too  late  to  avoid  a  safety  violation.  In  this  paper,  wedevelop a decentralized planning method that explicitly avoidssituations  where  lack of visibility  of  other  agents  would  leadto an unsafe situation. bxuilding on top of an existing Rapidly-exploring  Random  Tree  (RRT)-based  approach,  our  methodguarantees  safety  at  each  iteration.  Simulation  studies  showthe  effectiveness  of  our  method  and  compare  the  degradationin  performance  with  respect  to  a  clairvoyant  decentralizedplanning algorithm where agents can communicate despite notbeing  in  LOS  of  each  other.}
 }
 
 @inproceedings{pant2019fads,
@@ -54,7 +76,7 @@ img={TCPS21.png}
 @inproceedings{alena2020l2f,
   title={{Learning-to-Fly: Learning-based Collision Avoidance for Scalable Urban Air Mobility}},
   author={Rodionova, Alëna* and Pant, Yash Vardhan* and Jang, Kuk J. and Abbas, Houssam and Mangharam, Rahul},
-  booktitle={IEEE International Conference on Intelligent Transportation Systems (to appear)},
+  booktitle={IEEE International Conference on Intelligent Transportation Systems},
   year={2020},
   abstract={With increasing urban population, there is global interest in Urban Air Mobility (UAM), where hundreds of autonomous Unmanned Aircraft Systems (UAS) execute missions in the airspace above cities. Unlike traditional human-in-the-loop air traffic management, UAM requires decentralized autonomous approaches that scale for an order of magnitude higher aircraft densities and are applicable to urban settings. We present Learning-to-Fly (L2F), a decentralized on-demand airborne collision avoidance framework for multiple UAS that allows them to independently plan and safely execute missions with spatial, temporal and reactive objectives expressed using Signal Temporal Logic. We formulate the problem of predictively avoiding collisions between two UAS without violating mission objectives as a Mixed Integer Linear Program (MILP). This however is intractable to solve online. Instead we develop L2F, a two-stage collision avoidance method that consists of: 1)a learning-based decision making scheme and 2) a distributed, linear programming-based UAS control algorithm. Through extensive simulations, we show the real-time applicability of our method which is ≈ 6000× faster than the MILP approach and can resolve 99.4% of collisions when there is ample room to maneuver, and shows graceful degradation in performance otherwise. We also compare L2F to two other methods and demonstrate an implementation on quad-rotor robots.},
  pdf={https://arxiv.org/abs/2006.13267},
@@ -64,7 +86,7 @@ img={TCPS21.png}
 @inproceedings{jang2020dasc,
   title={{Learning-to-Fly RL: Reinforcement Learning-based Collision Avoidance for Scalable Urban Air Mobility}},
   author={Jang, Kuk J. and Pant, Yash Vardhan and  Rodionova, Alena and Mangharam, Rahul},
-  booktitle={AIAA/IEEE Digital Avionics Systems Conference (DASC)  (to appear)},
+  booktitle={AIAA/IEEE Digital Avionics Systems Conference (DASC)},
   abstract={As hundreds of Unmanned Aircraft System (UAS) operate within urban airspaces, automated and decentralized UAS traffic management (UTM) will be critical to maintain safe and efficient operations. In this work, we present Learning-to-Fly with Reinforcement Learning (L2F-RL), a decentralized, on-demand Collision Avoidance (CA) framework that systematically combines machine learning with cooperative model predictive control for UAS collision avoidance while retaining satisfaction of higher-level mission objectives. L2F-RL consists of: 1) RL-based policy for conflict resolution (CR) with discrete-decision making, 2) decentralized, cooperative model predictive control for CA. To accelerate training with RL, we utilize reward shaping and curriculum learning. Our approach outperforms baseline approaches with a 99.01% separation rate (ratio of success to total test cases) in the worst case, improving to 100% in the best case with a 1000X improvement in computation time compared to centralized methods. Our results demonstrate the potential of combining learning approaches with optimization-based control, making it a significant contribution towardsscalable, decentralized UTM.},
   year={2020},
   img={l2f_kj1.png}
