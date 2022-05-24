@@ -7,7 +7,11 @@ nav: true
 ---
 ### The Control, Learning and Logic (CL2) group at the University of Waterloo
 
-Our research aims to develop methods for reliable decision-making of autonomous systems in the wild.
+Our research aims to develop methods for reliable decision-making of autonomous systems in the wild. 
+
+[Open positions](../assets/files/Positions-Winter2023.pdf){:target="\_blank"}
+
+
 
 #### Current members
 
