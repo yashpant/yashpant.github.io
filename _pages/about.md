@@ -26,8 +26,11 @@ social: true  # includes social icons at the bottom of the page
 <b>I'm hiring a postdoc, PhD and MASc students for Fall 2022. [Click here](assets/files/Openings_fall22.html){:target="\_blank"} for more information and instructions on how to apply. </b>
 -->
 
-My research interests lie in using elements of Control Theory, Formal Methods, Machine Learning and Optimization to solve problems in Safe Autonomy of Robotic and other Cyber-Physical Systems, and Human-Robot Interaction.
+I joined the University of Waterloo in 2021, where I lead the [Control, Learning and Logic (CL2) group](group/index.html){:target="\_blank"}. My research interests lie in using elements of Control Theory, Formal Methods, Machine Learning and Optimization to solve problems in Safe Autonomy of Robotic and other Cyber-Physical Systems. 
 [[Curriculum Vitae]](assets/files/CV_YashVardhanPant.pdf){:target="\_blank"}
+
+
+
 
 Prior to joining the University of Waterloo, I was a Postdoctoral Fellow in the EECS Department at UC Berkeley. As a part of the [VeHICaL project](http://vehical.org){:target="_blank"}, I was mentored by Professors [Sanjit Seshia](http://people.eecs.berkeley.edu/~sseshia/){:target="_blank"} (primarily) and [Bjoern Hartmann](https://people.eecs.berkeley.edu/~bjoern/){:target="_blank"}.
 
