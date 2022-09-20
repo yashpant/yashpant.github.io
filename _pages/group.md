@@ -9,7 +9,7 @@ nav: true
 
 Our research aims to develop methods for reliable decision-making of autonomous systems in the wild. 
 
-[Open positions](../assets/files/Positions-Winter2023.pdf){:target="\_blank"}
+<!-- [Open positions](../assets/files/Positions-Winter2023.pdf){:target="\_blank"} -->
 
 
 
