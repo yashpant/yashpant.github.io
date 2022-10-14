@@ -26,7 +26,7 @@ Our research aims to develop methods for reliable decision-making of autonomous 
 * Zhao-Feng (Jack) Dai (ECE, 2022 - ). Co-advised with Prof. Stephen L. Smith. 
 * Soroush Mortazavi (ECE, 2022 - ). Co-advised with Prof. Sebastian Fischmeister. 
 
-##### Undergraduate researcher associates
+##### Undergraduate research associates
 * Oluwatofolafun Damilola Opeoluwa-Calebs (2022 - )
 * Soham Lakhi (Visiting student, 2022 - )
 * Steven Wong (2022 - )
