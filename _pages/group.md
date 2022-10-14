@@ -9,31 +9,37 @@ nav: true
 
 Our research aims to develop methods for reliable decision-making of autonomous systems in the wild. 
 
-<!-- [Open positions](../assets/files/Positions-Winter2023.pdf){:target="\_blank"} -->
+[Open positions](../assets/files/Positions-Fall2023.pdf){:target="\_blank"}
 
 
 
 #### Current members
 
-* Leroy D'Souza (MASc student, ECE, 2022 -). Co-advised with Prof. Sebastian Fischmeister. 
+##### Postdoctoral researchers
+* [Jie Wang](http://jiewang.name/){:target="\_blank"} (ECE, 2022 - ). Co-mentored with Prof. Sebastian Fischmeister. 
 
-* Harshil Dharmendrabhai Kapadia (Graduate Researcher, 2021 -). 
+##### PhD students 
+* Jiaming Zhong (MME). Co-advised with Prof. Amir Khajepour. 
 
-* Oluwatofolafun Damilola Opeoluwa-Calebs(Undergraduate researcher, 2022 -)
+##### MASc students
+* Leroy D'Souza (ECE, 2022 - ). Co-advised with Prof. Sebastian Fischmeister. 
+* Zhao-Feng (Jack) Dai (ECE, 2022 - ). Co-advised with Prof. Stephen L. Smith. 
+* Soroush Mortazavi (ECE, 2022 - ). Co-advised with Prof. Sebastian Fischmeister. 
 
-* Kateryna Tarasi Steblyk (Undergraduate researcher, 2022 -)
+##### Undergraduate researcher associates
+* Oluwatofolafun Damilola Opeoluwa-Calebs (2022 - )
+* Soham Lakhi (Visiting student, 2022 - )
+* Steven Wong (2022 - )
+* Cheran Mahalingam (2022 - )
 
-* [Jie Wang](http://jiewang.name/){:target="\_blank"} (Postdoctoral Research Associate, ECE, 2022-). Co-mentored with Prof. Sebastian Fischmeister. 
-
-* Jiaming Zhong (PhD student, MME). Co-advised with Prof. Amir Khajepour. 
 
 
 #### Former members
 
 * [Mohammad Pirani](https://sites.google.com/site/mmdpirani){:target="\_blank"} (Senior Research Associate, 2021). Co-mentored with Prof. Sebastian Fischmeister. Current position: Research Assistant Professor, MME, U. Waterloo. 
 * Aishwarya Srinivas (Undergraduate researcher, 2022). 
-
-
+* Harshil Dharmendrabhai Kapadia (Graduate Researcher, 2021-2022). Current position: Software Engineer, Amazon.  
+* Kateryna Tarasi Steblyk (Undergraduate researcher, 2022).
 
 
 
