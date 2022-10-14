@@ -29,7 +29,7 @@ Our research aims to develop methods for reliable decision-making of autonomous 
 ##### Undergraduate research associates
 * Oluwatofolafun Damilola Opeoluwa-Calebs (2022 - )
 * Soham Lakhi (Visiting student, 2022 - )
-* Steven Wong (2022 - )
+* Steven Gong (2022 - )
 * Cheran Mahalingam (2022 - )
 
 
