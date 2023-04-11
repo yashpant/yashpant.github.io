@@ -20,7 +20,11 @@ nav: true
 
 -->
 
-- <bold> Instructor </bold> Model Predictive Control (ECE 780) , Winter 2022, University of Waterloo. [Tentative Syllabus](/assets/courses/ECE780MPC/ECE780.pdf){:target="\_blank"}  
+- <bold> Instructor </bold> Model Predictive Control (ECE 780) , Winter 2022, Spring 2023. University of Waterloo. [Tentative Syllabus](/assets/courses/ECE780MPC/ECE780_ModelPredictiveControl_Spring2023.pdf){:target="\_blank"}
+
+- <bold> Instructor </bold> Digital Control Systems (ECE 481) , Spring 2022, 2023. University of Waterloo. [Tentative Syllabus](/assets/courses/ECE481/ECE481.pdf){:target="\_blank"}
+
+- <bold> Instructor </bold> Analog Control Systems (ECE 380) , Winter 2023. University of Waterloo. [Tentative Syllabus](/assets/courses/ECE380/ECE380.pdf){:target="\_blank"}
 
 - <bold>Teaching Assistant</bold> Control Theory (ESE 406, ESE 505), Fall 2013 & Fall 2014, University of Pennsylvania
 
