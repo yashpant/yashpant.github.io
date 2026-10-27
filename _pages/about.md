@@ -13,8 +13,8 @@ profile:
     <p>E5, U. Waterloo</p>
     <p>Waterloo, Canada</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
@@ -36,15 +36,7 @@ Prior to joining the University of Waterloo, I was a Postdoctoral Fellow in the 
 
 I received my PhD in Electrical Engineering from the University of Pennsylvania, where I worked on developing Robust Predictive Methods for Planning and Control of Autonomous Systems as a part of Prof. [Rahul Mangharam](http://www.seas.upenn.edu/~rahulm/){:target="_blank"}'s Real-Time and Embedded Systems Lab.
 
-Computationally tractable solutions, that potentially solve real problems, are a recurring theme across my research. More often that not, the algorithms we develop are implemented on actual Cyber-Physical Systems, some of which are: [multiple Crazyflie 2.0 quad-rotors](http://bit.ly/varvel8){:target="_blank"}, a [1/10th scale autonomous car](http://f1tenth.org){:target="_blank"}, a [hex-rotor platform](https://www.youtube.com/watch?v=hmTRxrq4NJg&feature=youtu.be){:target="_blank"}, a [hardware-in-the-loop vehicle ECU simulator](https://www.youtube.com/watch?v=vchbkNtnr-U&list=PL7rtKJAz_mPdy9rIrQc4qsNyyeqzzLKrp){:target="_blank"}, a [scaled down hybrid powertrain for Electric Vehicles](https://www.youtube.com/watch?v=ZWIuTwJ4Npk){:target="_blank"}, and a [self-balancing, fully enclosed electric motorcycle](https://www.litmotors.com/product){:target="_blank"}. 
-
-
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-
+<!--Computationally tractable solutions, that potentially solve real problems, are a recurring theme across my research. More often that not, the algorithms we develop are implemented on actual Cyber-Physical Systems, some of which are: [multiple Crazyflie 2.0 quad-rotors](http://bit.ly/varvel8){:target="_blank"}, a [1/10th scale autonomous car](http://f1tenth.org){:target="_blank"}, a [hex-rotor platform](https://www.youtube.com/watch?v=hmTRxrq4NJg&feature=youtu.be){:target="_blank"}, a [hardware-in-the-loop vehicle ECU simulator](https://www.youtube.com/watch?v=vchbkNtnr-U&list=PL7rtKJAz_mPdy9rIrQc4qsNyyeqzzLKrp){:target="_blank"}, a [scaled down hybrid powertrain for Electric Vehicles](https://www.youtube.com/watch?v=ZWIuTwJ4Npk){:target="_blank"}, and a [self-balancing, fully enclosed electric motorcycle](https://www.litmotors.com/product){:target="_blank"}. -->
 
 
 <!---#### Areas of Interests

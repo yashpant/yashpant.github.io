@@ -66,9 +66,9 @@ scholar_userid: hdQid8kAAAAJ # your Google Scholar ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: blog  # your blog must have a name for it to show up in the nav bar
-blog_description: notes
-permalink: /blog/:year/:title/
+#blog_name: blog  # your blog must have a name for it to show up in the nav bar
+#blog_description: notes
+#permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
@@ -85,10 +85,10 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 news_limit: 5

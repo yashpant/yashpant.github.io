@@ -9,4 +9,12 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'logger'
+    gem 'csv'
+    gem 'base64'
+    gem 'bigdecimal'
+    gem 'drb'
+    gem 'mutex_m'
+    gem 'observer'
+    gem 'ostruct'
 end

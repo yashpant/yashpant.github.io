@@ -9,37 +9,43 @@ nav: true
 
 Our research aims to develop methods for reliable decision-making of autonomous systems in the wild. 
 
-[Open positions](../assets/files/Positions-Fall2023.pdf){:target="\_blank"}
+<!-- [Open positions](../assets/files/Positions-Fall2023.pdf){:target="\_blank"} -->
 
 
 
 #### Current members
 
-##### Postdoctoral researchers
-* [Jie Wang](http://jiewang.name/){:target="\_blank"} (ECE, 2022 - ). Co-mentored with Prof. Sebastian Fischmeister. 
-
-##### PhD students 
-* Jiaming Zhong (MME). Co-advised with Prof. Amir Khajepour. 
+##### PhD students
+* Christian Schaible (ECE, 2025 - ). Co-advised with Prof. Stephen L. Smith. 
+* Leroy D'Souza (ECE, 2023 - ). Co-advised with Prof. Sebastian Fischmeister. 
+* Da Saem Lee (ECE, 2023 - ). Co-advised with Prof. Sebastian Fischmeister. 
 
 ##### MASc students
-* Leroy D'Souza (ECE, 2022 - ). Co-advised with Prof. Sebastian Fischmeister. 
-* Zhao-Feng (Jack) Dai (ECE, 2022 - ). Co-advised with Prof. Stephen L. Smith. 
-* Soroush Mortazavi (ECE, 2022 - ). Co-advised with Prof. Sebastian Fischmeister. 
+* Mingyue Deng (ECE, 2026 - ). Co-advised with Prof. Roya Firoozi. 
+* Mark Chiu (ECE, 2026 - ). Co-advised with Prof. Sebastian Fischmeister. 
+* Melda Kiziltan (ECE, part-time, 2025 - ). Co-advised with Prof. Stephen L. Smith. 
+* Matteo Golin (ECE, 2025 - ). Co-advised with Prof. Stephen L. Smith. 
+* Lance Pharand (ECE, 2025 - ). Co-advised with Prof. Stephen L. Smith. 
 
-##### Undergraduate research associates
-* Oluwatofolafun Damilola Opeoluwa-Calebs (2022 - )
-* Soham Lakhi (Visiting student, 2022 - )
-* Steven Gong (2022 - )
-* Cheran Mahalingam (2022 - )
+##### M.Math students
+* Zesheng (Ethan) Jia (CS, 2025 - ). Co-advised with Prof. Charles Clarke. 
 
 
 
 #### Former members
 
-* [Mohammad Pirani](https://sites.google.com/site/mmdpirani){:target="\_blank"} (Senior Research Associate, 2021). Co-mentored with Prof. Sebastian Fischmeister. Current position: Research Assistant Professor, MME, U. Waterloo. 
-* Aishwarya Srinivas (Undergraduate researcher, 2022). 
-* Harshil Dharmendrabhai Kapadia (Graduate Researcher, 2021-2022). Current position: Software Engineer, Amazon.  
-* Kateryna Tarasi Steblyk (Undergraduate researcher, 2022).
-
+* Dr. Shamak Dutta (Postdoctoral Researcher, 2024-2026). Co-mentored with Prof. Stephen L. Smith. Current position: Research Scientist, Meta. 
+* Dr. Jie Wang (Postdoctoral Research Associate, 2022-2023). Co-mentored with Prof. Sebastian Fischmeister. Current position: Tenure-track Assistant Professor, Mechanical Engineering, University of Manitoba. 
+* Dr. Mohammad Pirani (Senior Research Associate, 2021-2022). Co-mentored with Prof. Sebastian Fischmeister. Current position: Tenure-track Assistant Professor, MME, University of Ottawa. 
+* Jiaming Zhong (PhD, MME, 2022-2025). Co-advised with Prof. Amir Khajepour. Current position: Research Officer, National Research Council of Canada (NRC). 
+* Krishna Kalavadia (MASc, ECE, 2024-2026). Co-advised with Prof. Stephen L. Smith. Current position: Software Engineer, Bloomberg. 
+* Praneeth Kolapalli (MASc, ECE, 2024-2026). Co-advised with Prof. Stephen L. Smith. Current position: PhD Student, KTH (Sweden). 
+* Akash Karthikeyan (MASc, ECE, 2023-2025). Current position: PhD Student, Montreal Institute of Machine Learning (MILA). 
+* Arezoo Alipanah (MASc, ECE, 2023-2025). Current position: PhD Student, Computer Science, University of Waterloo. 
+* Avraiem Iskander (MASc, ECE, 2023-2025). Co-advised with Prof. Stephen L. Smith. Current position: Software Engineer (Algorithms and Optimization), RideCo. 
+* Prajwal Thakur (MASc, ECE, 2023-2025). Co-advised with Prof. Amir Khajepour. Current position: Autonomy Engineer, Addverb Robotics. 
+* Zhao-Feng (Jack) Dai (MASc, ECE, 2022-2024). Co-advised with Prof. Stephen L. Smith. Current position: Software Engineer, Apple. 
+* Soroush Mortazavi Moghaddam (MASc, ECE, 2022-2024). Co-advised with Prof. Sebastian Fischmeister. Current position: Data Scientist, Open Power. 
+* Leroy D'Souza (MASc, ECE, 2022-2023). Co-advised with Prof. Sebastian Fischmeister. Current position: PhD Student, University of Waterloo. 
 
 

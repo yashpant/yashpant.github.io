@@ -3,7 +3,7 @@ layout: page
 title: research
 permalink: /projects/
 description: Also see the publications page
-nav: true
+nav: false
 ---
 ### Learning-to-Fly (L2F): Learning-based mission-aware Collision Avoidance
 
