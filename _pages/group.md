@@ -35,9 +35,9 @@ Our research aims to develop methods for reliable decision-making of autonomous 
 #### Former members
 
 * Dr. Shamak Dutta (Postdoctoral Researcher, 2024-2026). Co-mentored with Prof. Stephen L. Smith. Current position: Research Scientist, Meta. 
-* Dr. Jie Wang (Postdoctoral Research Associate, 2022-2023). Co-mentored with Prof. Sebastian Fischmeister. Current position: Tenure-track Assistant Professor, Mechanical Engineering, University of Manitoba. 
-* Dr. Mohammad Pirani (Senior Research Associate, 2021-2022). Co-mentored with Prof. Sebastian Fischmeister. Current position: Tenure-track Assistant Professor, MME, University of Ottawa. 
-* Jiaming Zhong (PhD, MME, 2022-2025). Co-advised with Prof. Amir Khajepour. Current position: Research Officer, National Research Council of Canada (NRC). 
+* Dr. [Jie Wang](https://jwangjie.github.io/){:target="\_blank"} (Postdoctoral Research Associate, 2022-2023). Co-mentored with Prof. Sebastian Fischmeister. Current position: Tenure-track Assistant Professor, Mechanical Engineering, University of Manitoba. 
+* Dr. [Mohammad Pirani](https://sites.google.com/site/mmdpirani){:target="\_blank"} (Senior Research Associate, 2021-2022). Co-mentored with Prof. Sebastian Fischmeister. Current position: Tenure-track Assistant Professor, MME, University of Ottawa. 
+* [Jiaming Zhong](https://jiamingzhong.world/){:target="\_blank"} (PhD, MME, 2022-2025). Co-advised with Prof. Amir Khajepour. Current position: Research Officer, National Research Council of Canada (NRC). 
 * Krishna Kalavadia (MASc, ECE, 2024-2026). Co-advised with Prof. Stephen L. Smith. Current position: Software Engineer, Bloomberg. 
 * Praneeth Kolapalli (MASc, ECE, 2024-2026). Co-advised with Prof. Stephen L. Smith. Current position: PhD Student, KTH (Sweden). 
 * Akash Karthikeyan (MASc, ECE, 2023-2025). Current position: PhD Student, Montreal Institute of Machine Learning (MILA). 
